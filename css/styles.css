@@ -1,0 +1,130 @@
+body {
+    background-color: #F3F4F6;
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    max-width: 30%;
+    margin: 35px auto 0;
+    padding: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-family: "Inter", sans-serif;
+    color: #374151;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #6B7280;
+}
+
+.form {
+    background-color: #F9FAFB;
+    padding: 30px;
+    border-radius: 8px;
+    font-family: "Inter", sans-serif;
+}
+
+.form-group {
+    margin-bottom: 8px;
+}
+
+.form-btn {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
+label {
+    margin-left: 10px;
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #374151;
+}
+
+input,
+select {
+    margin-left: 10px;
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 16px;
+}
+
+.content {
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #4C51BF;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #434190;
+}
+
+.internshipField:nth-child(odd) {
+    background-color: #F3F4F6;
+    padding: 5%;
+    border-radius: 4px;
+    border: #E5E7EB 1px solid;
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+.internshipField:nth-child(even) {
+    background-color: #F3F4F6;
+    padding: 5%;
+    border-radius: 4px;
+    border: #E5E7EB 1px solid;
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+.welcome-container {
+    max-width: 30%;
+    margin: 35px auto 0;
+    padding: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-content {
+    width: 80%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
